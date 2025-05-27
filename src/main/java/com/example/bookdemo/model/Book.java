@@ -20,6 +20,7 @@ public class Book {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
     String name;
+    String color;
     int pageNumber;
     int releaseYear;
 
